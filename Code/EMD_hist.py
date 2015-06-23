@@ -5,10 +5,10 @@ Created on Thu Jun 11 18:56:55 2015
 @author: Natalie
 """
 
-#Import OpenCv library
+#import OpenCv library
 from cv2 import cv 
-#from cv2 import *
-#import Image
+from cv2 import *
+from PIL import Image
 
 ### HISTOGRAM FUNCTION #########################################################
 def calcHistogram(src):

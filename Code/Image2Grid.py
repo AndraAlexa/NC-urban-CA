@@ -2,15 +2,18 @@ from PIL import Image
 import numpy as np
 import matplotlib.pyplot as plt
 
-#    free         --> 0 
-#    residentials -->10
-#    comercials  --> 11
+#    free        --> 0 
+#    residential -->10
+#    comercials --> 11
 #    industry   --> 12
-#    roads       --> 20
+#    roads      --> 20
 #    highway    --> 21
 #    sea        --> 30
-#    forest      --> 31
-#    recreation --> ??
+#    forest     --> 31
+#    open land  --> 40
+#    urban open --> 41
+#    mining     --> 50
+#    recreation --> 51
 
 # global color definitions and the corresponding value in the grid
 # colors:       red -commercial lila-industrial  blue - water  orange - resi  green -forest high densi resid black dotss

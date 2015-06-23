@@ -5,7 +5,10 @@ Created on Thu Jun  4 14:36:03 2015
 @author: andruta
 """
 
-"""This code performs the color quantization using K-means"""
+"""This code performs the color quantization using K-means
+   It was a first approach we used, but it was not implemented in the final project
+   because a better solution was found
+"""
 
 from PIL import Image
 import numpy as np
@@ -157,12 +160,7 @@ def make_color_list (colors):
             color_list[i]='grey'
     """
     return color_list
-    
-def make_land_usage_list (industry=industry, white_space=white_space, resd=resd,
-                          comerc=comerc, roads=roads, highway=highway,
-                          sea=sea, forest=forest): 
-    return industry, white_space, resd, comerc, roads, highway, sea, forest                           
-                      
+                     
   
 def grid_generator(im):
     #define the variables
