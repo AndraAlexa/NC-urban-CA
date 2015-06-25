@@ -1,4 +1,4 @@
-This is the repository containing the source code, images and graphs and results for Natural Computing course projects. For this project Natalie Widmann and Andra Alexa worked together. The main focus of our project was to model urban development by using an urban CA grid.
+This is the repository containing the source code, images, graphs and results for Natural Computing course project. For this project Natalie Widmann and Andra Alexa worked together. Our aim was to model urban development by using an urban CA grid.
 
 The repository is organized as follows:
 1. Folder Code contains the python files we developped
